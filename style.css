@@ -1,0 +1,241 @@
+*{
+   
+    /* background-color: #1f2937;  */
+    color:#f9fafb;
+}
+body{
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-content{
+    background-color: #1f2937;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+    font-weight: 600;
+
+}
+
+.logo img{
+    height:120px;
+}
+
+header ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+    font-size: 24px;
+    list-style: none;
+    padding:10px;
+    /* color:rgb(210, 143, 43); */
+}
+
+.home{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.home h1{
+    font-size: 62px;
+    font-family:'IBM Plex Sans', sans-serif;
+}
+
+.home h2{
+    font-family: 'Cabin', sans-serif;
+    font-size: 32px;
+}
+
+.intro-btn{
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+}
+
+.i-btn{
+    border: 3px solid #f9fafb;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.i-btn img{
+    height: 2rem;
+}
+
+.secondary{
+    background-color:#374151;
+}
+
+.about{
+    padding:45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:25px;
+}
+
+.heading{
+    color: rgb(208, 163, 92);
+    font-size: 32px;
+    font-weight: 600;
+}
+.about p{
+    font-size: 20px;
+}
+
+.project{
+    padding:45px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+
+}
+
+.section-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.proj-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-img{
+    padding:25px;
+    background-color:#d1d5db;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.proj-img img{
+    max-width: 100%;
+}
+
+.proj-des{
+    max-width: 1037px;
+    background-color: #111827;
+    padding:25px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.proj-des h1{
+    color:#d1d5db;;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tools{
+    padding:45px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.tool-box{
+    display: flex;
+    gap: 50px
+}
+
+.tool-item{
+    height: 180px;
+    width:180px;
+    background-color:#6b7280;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.tool-item img{
+    max-height: 80px;
+}
+
+.contact{
+    padding:45px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    gap:25px;
+    max-width: 900px; /* Set your desired maximum width here */
+    margin: 0 auto; /
+    /* max-width: ; */
+}
+
+.info{
+    display: flex;
+    gap: 100px;
+    /* width: 800px; */
+    max-width: 800px;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+#message{
+
+    max-width: 800px;
+    padding:20px;
+    background-color: #d1d5db;
+}
+
+.contact input{
+    height: 25px;
+    padding:10px;
+    /* width: 300px; */
+    background-color: #d1d5db;
+    color:#111827;
+    font-size: 16px;
+}
+
+.contact-form .i-btn{
+    align-self: center;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
