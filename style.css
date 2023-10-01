@@ -37,6 +37,10 @@ header ul{
     /* color:rgb(210, 143, 43); */
 }
 
+header ul a{
+    text-decoration: none;
+}
+
 .home{
     padding: 25px;
     display: flex;
@@ -77,6 +81,13 @@ header ul{
 .i-btn img{
     height: 2rem;
 }
+
+
+.i-btn:hover{
+    background-color: rgba(255, 255, 255, 0.531);
+    color:#1f2937;
+}
+
 
 .secondary{
     background-color:#374151;
@@ -131,7 +142,7 @@ header ul{
 }
 
 .proj-img img{
-    max-width: 100%;
+    max-width: 1037px;
 }
 
 .proj-des{
@@ -151,6 +162,16 @@ header ul{
     font-weight: 600;
     font-size: 30px;
     text-align: center;
+}
+
+.des-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.des-link img{
+    height: 3rem;
 }
 
 .tools{
@@ -184,6 +205,9 @@ header ul{
     max-height: 80px;
 }
 
+.tool-item:hover{
+    background-color: #4b5563;
+}
 .contact{
     padding:45px;
     display: flex;
@@ -221,6 +245,7 @@ header ul{
     max-width: 800px;
     padding:20px;
     background-color: #d1d5db;
+    color: #111827;
 }
 
 .contact input{
@@ -239,3 +264,4 @@ header ul{
     display: flex;
     justify-content: center;
 }
+
